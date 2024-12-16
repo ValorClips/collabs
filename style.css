@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #1e1e1e;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.header .dropdown,
+.header .search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.header label {
+    margin-right: 10px;
+}
+
+.header select,
+.header input {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+/* Video Container */
+.video-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Video Panel */
+.video-panel {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+.video-panel video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.video-panel p {
+    margin: 8px 0;
+}
+
+.video-panel a {
+    color: #00bcd4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.video-panel a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+}
