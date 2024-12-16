@@ -1,5 +1,3 @@
 1.mp4,Akko,Keyboard,5000,https://instagram.com/reel1
 2.mp4,Cidoo,Mouse,3200,https://instagram.com/reel2
 3.mp4,Darmoshark,Mouse,7200,https://instagram.com/reel3
-4.mp4,Inca,Headset,4500,https://instagram.com/reel4
-5.mp4,MageGee,Keyboard,2800,https://instagram.com/reel5
